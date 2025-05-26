@@ -19,14 +19,6 @@ The goal of this project is to quantify spatial colocalization between mutant Hu
 - **`Zelfevaluatieformulier leeruitkomsten_blok4 (1).pdf`**  
   Self-assessment form for evaluating learning outcomes in the context of the graduation project.
 ---
-
-## 📁 Other Files
-
-- **`pearson_scatter.png`**  
-  Visual scatterplot showing Pearson’s correlation between CCT1 and mHTT signal intensities per voxel.
-
-
----
 ## 📁 Older code
 - **`CPCAM.ipynb`**  
   Visualizes and quantifies CCT1 enrichment at mHTT aggregate locations using intensity-based statistics.
