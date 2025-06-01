@@ -18,6 +18,9 @@ The goal of this project is to quantify spatial colocalization between mutant Hu
 
 - **`Zelfevaluatieformulier leeruitkomsten_blok4 (1).pdf`**  
   Self-assessment form for evaluating learning outcomes in the context of the graduation project.
+- **`USER_GUIDE.md`**  
+  Practical guide for using the colocalization analysis tool. Includes setup instructions, input requirements, interface walkthrough, and interpretation tips for output metrics.
+
 ---
 ## 📁 Older code
 - **`CPCAM.ipynb`**  
