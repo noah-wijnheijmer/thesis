@@ -51,6 +51,46 @@ The analysis pipeline is structured as follows:
 Environment files or setup instructions will be added in future commits. Ensure CUDA support if running nnU-Net on GPU.
 
 ---
+## 🧬 Research Use Only Disclaimer
+
+This software tool, including its graphical user interface (GUI), source code, pretrained models, and documentation, was developed as part of the MSc thesis *“Colocalization Patterns of Mutant Huntingtin and the CCT1 Chaperone”* by N. Wijnheijmer at the Amsterdam University of Applied Sciences.
+
+### 🔬 For Research Purposes Only
+
+This tool is intended strictly for **non-clinical, academic research use** in biomedical image analysis. It is specifically designed to assist in the **quantitative colocalization analysis** of mutant Huntingtin (mHTT) aggregates and CCT1 chaperone signal in 3D fluorescence microscopy images.
+
+- **Not for diagnostic use.** This software must not be used for clinical decision-making or patient care.
+- **No therapeutic claims.** While the tool analyzes protein colocalization patterns with potential biological implications, it does not make or support therapeutic inferences.
+
+### ⚖️ Legal Compliance
+
+This software falls under the scientific research exemption defined in **Article 2(6) of the EU Artificial Intelligence Act**. It is not classified as a high-risk or clinical AI system.
+
+- All datasets used are anonymized and derived from research collaborations (e.g., Prinses Máxima Centrum). No personal data is used or stored.
+- Compliance with **Recital 26 of the EU General Data Protection Regulation (GDPR)** is maintained, as all image data are non-identifiable and non-personal.
+
+### 📜 Licensing and Third-party Components
+
+The tool integrates open-source packages including, but not limited to: `nnU-Net`, `Cellpose`, `Napari`, `scikit-image`, and `matplotlib`. All components are used in accordance with their respective licenses (e.g., MIT, Apache 2.0). A complete license list is provided in the `LICENSES.md` file.
+
+### 🧪 Intended Audience
+
+This tool is intended for:
+
+- Researchers and technicians at the Prinses Máxima Centrum and collaborating labs
+- Biomedical scientists interested in chaperone-aggregate interactions
+- AI researchers exploring explainable, biologically grounded segmentation workflows
+
+Users are expected to independently verify and interpret analysis results.
+
+### ❗ Disclaimer of Warranty
+
+This prototype is provided *“as is”* with no warranties, express or implied. No guarantee is given as to the accuracy, completeness, or reliability of the results. The developers, academic supervisors, and affiliated institutions accept no liability for any misuse or misinterpretation of the tool’s output.
+
+---
+
+For support, feedback, or citation requests, please refer to the [User Guide](./USER_GUIDE.md) or contact the corresponding author: noah.wijnheijmer@hva.nl.
+
 
 ## 📍 Citation
 
