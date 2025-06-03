@@ -294,6 +294,7 @@ Noah Wijnheijmer
 - Designed first version of the Value Proposition Canvas.  
 - Constructed a happy flow and error flow from image loading to colocalization export.
 - Experimented the capabilities currently available on FIJI and made flows for the manual mathod. Also recorded a video displaying the manual colocalization analysis to send to Carolina for validation. (https://icthva-my.sharepoint.com/personal/noah_wijnheijmer_hva_nl/_layouts/15/stream.aspx?id=%2Fpersonal%2Fnoah%5Fwijnheijmer%5Fhva%5Fnl%2FDocuments%2FAttachments%2FScreen%20Recording%202025%2D05%2D12%20at%2011%2E51%2E35%2Emov&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6e9230f7%2D4b89%2D4e76%2Dab1b%2D5ef1958ff720)
+- i also analyzed the current way of colocalization using the  JACoP BIOP macro (https://github.com/BIOP/ijp-jacop-b). I followed this tutorial to run it: https://www.youtube.com/watch?v=dk3ETh8oSX0 
 - ✅ *Outcome*: Conceptual prototype aligned with user needs and dataset constraints.
 
 ## Week of May 5–9, 2025
