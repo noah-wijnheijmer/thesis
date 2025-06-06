@@ -1,3 +1,4 @@
+This GUI is inspired by the spotitpy implementation for an automatic tool for object based colocalization (https://github.com/alexiaales/SpotitPy?tab=readme-ov-file)
 to run the GUI as a CLI, you should define the hyperparameters first to run the colocalization analysis, this is done using the following format:
 
 python /Users/noahwijnheijmer/GUI/Custom_CLI.py \
