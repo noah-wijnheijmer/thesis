@@ -321,13 +321,42 @@ Noah Wijnheijmer
 - Integrated Cellpose (for cells) + nnU-Net (for aggregates) for full analysis per z-slice.  
 - ✅ *Outcome*: Fully functioning POC AI-driven colocalization pipeline with results.
 
+## Week of May 26–30, 2025  
+**Focus**: Shift Toward Optimization & Productization  
+- Delivered the 70% thesis version for review.  
+- Refined Results and Conclusion sections to clearly emphasize the added value of the statistical methods.  
+- Reoriented focus toward delivering a robust, user-friendly, value-adding product.
+- focussed on setting up the validation rounds
+- ✅ *Outcome*: Strategic pivot toward final product optimization and user alignment.
+
+## Week of June 2–7, 2025  
+**Focus**: User Feedback & Final Pipeline Refinement  
+- Presented a live demo of the pipeline to researchers at Prinses Máxima Centrum.  
+- Collected and analyzed feedback regarding usability and alignment with user needs.  
+- Iteratively refined the pipeline and GUI based on received feedback.  
+- Incorporated feedback from the 70% thesis version into the report.  
+- ✅ *Outcome*: Pipeline and report refined in preparation for final delivery.
+
+## Week of June 9–13, 2025  
+**Focus**: Finalization & Validation  
+- Sent the finalized GUI demo to researchers at Prinses Máxima Centrum for final testing and feedback.  
+- Prepared contingency planning for feedback that may need to be addressed in the Discussion section if not implemented in time.  
+- Dedicated significant effort to organizing and documenting the complete set of analyses.  
+- Focused on final editing and completion of the full thesis report.  
+- ✅ *Outcome*: Pipeline and report finalized for final submission, with user testing in progress.
+
+
+
 ## Deliverables Over Time
 | Date        | Milestone                                  | Notes |
 |-------------|--------------------------------------------|-------|
 | Mar 22      | Plan of Action completed                   | Included theoretical framing |
 | Apr 25      | Lif-to-TIFF issue resolved                 | Enabled 3D fidelity |
 | Apr 30      | Functional requirements finalized          | MoSCoW priorities logged |
-| May 2       | First version of colocalization pipeline   | Thresholding + correlation metrics and 3D visualization setup  |
-| May 12      | GUI prototype made using SpotitPy                    | Multi-step input + channel selection |
+| May 2       | First version of colocalization pipeline   | Thresholding + correlation metrics and 3D visualization setup |
+| May 12      | GUI prototype made using SpotitPy           | Multi-step input + channel selection |
 | May 14–15   | Internal presentation + workshop           | Feedback loop with experts |
-| May 21      | AI-based segmentation proof of concept       | 3D output and metrics |
+| May 21      | AI-based segmentation proof of concept     | 3D output and metrics |
+| May 30      | 70% thesis version delivered               | Refined Results/Conclusion; productization focus starts |
+| Jun 7       | Finalized pipeline demoed to users         | Feedback loop with Prinses Máxima Centrum |
+| Jun 13      | Full thesis submitted                      | Final pipeline + report finalized and delivered |
