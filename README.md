@@ -88,7 +88,18 @@ Users are expected to independently verify and interpret analysis results.
 
 ### ❗ Disclaimer of Warranty
 
-This prototype is provided *“as is”* with no warranties, express or implied. No guarantee is given as to the accuracy, completeness, or reliability of the results. The developers, academic supervisors, and affiliated institutions accept no liability for any misuse or misinterpretation of the tool’s output.
+No guarantee is given as to the accuracy, completeness, or reliability of the results. The developers, academic supervisors, and affiliated institutions accept no liability for any misuse or misinterpretation of the tool’s output. 
+
+Important: The learned segmentation model (nnU-Net) used in this pipeline was trained on a limited dataset of approximately 100 images from two specific experiments. As such, its performance may not automatically generalize to new microscopy data acquired under different imaging conditions, biological samples, or experimental protocols.
+
+While the pipeline automates several steps of the colocalization analysis, users must be aware that model outputs are not guaranteed to be correct without expert verification. Segmentation errors, overfitting to the training set, and biases in the learned representations may lead to misleading biological interpretations if results are accepted uncritically.
+
+To mitigate this risk:
+	•	Visual inspection of the segmentation overlays is mandatory before quantitative results are exported.
+	•	Users are strongly advised to cross-check automated outputs against biological plausibility and, where available, against expert-annotated reference data.
+	•	Any extension of this pipeline to new datasets should include additional validation of model performance.
+
+This pipeline follows a Human-in-the-Loop (HITL) design philosophy: the user retains responsibility for interpreting and validating all outputs, and automated results should be treated as decision-support, not as ground truth.
 
 ---
 
