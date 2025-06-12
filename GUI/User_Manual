@@ -44,8 +44,14 @@ conda activate colocalization_gui
 
 3. Install Required Packages
 
-All dependencies are listed and maintained in the requirements.txt file in this folder
+All dependencies are listed and maintained in the requirements.txt file in this folder. This can be done by typing the following in the terminal:
 
+
+pip install -r requirements.txt
+
+If this doesn't work, simply copy and paste the requirements into your environment:
+
+conda install [copy and paste all the dependencies from requirements.txt here]
 
 ⸻
 
