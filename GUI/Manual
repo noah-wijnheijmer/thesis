@@ -38,19 +38,7 @@ conda activate colocalization_gui
 
 3. Install Required Packages
 
-pip install PyQt5
-pip install matplotlib
-pip install napari
-pip install tifffile
-pip install scikit-image
-pip install numpy
-pip install scipy
-pip install pandas
-pip install aicsimageio
-pip install SimpleITK
-pip install seaborn
-pip install opencv-python
-pip install cellpose[gui]
+All dependencies are listed and maintained in the requirements.txt file in this folder
 
 
 ⸻
@@ -125,5 +113,3 @@ Disclaimer
 	•	This software is for research-use only.
 	•	It is not a medical device.
 	•	The user remains responsible for biological plausibility and verification of results.
-
-⸻
