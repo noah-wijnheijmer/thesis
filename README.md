@@ -9,9 +9,10 @@ The goal of this project is to quantify spatial colocalization between mutant Hu
 ## 🧠 Project Structure
 
 ### 🔬 Core Notebook
-
-- **`nnUnet.ipynb`**  
-  Implements nnU-Net for segmenting aggregates and CCT1 regions in 3D. Trained models and predictions enable spatial colocalization analysis at high resolution.
+- **`GUI_final.py`**
+The Final GUI implementation. This is the core product.	
+- **`nnUnet_final.py`**
+Implements learned segmentation through a nnUnet pipline in 3D. Trained models and predictions enable spatial colocalization analysis at high resolution.
 
 - **`logboek.md`**  
   Weekly development and research log documenting the iterative process, meetings, and decisions.
