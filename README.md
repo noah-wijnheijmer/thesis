@@ -6,8 +6,6 @@ The goal of this project is to quantify spatial colocalization between mutant Hu
 
 ---
 
-## 🧠 Project Structure
-
 ## 📊 Methodology Overview
 
 The analysis pipeline is structured as follows:
@@ -31,16 +29,14 @@ Environment files or setup instructions are added alongside the analysis in requ
 ### 🔬 Some Core Notebook elements
 - **`GUI_final.py`**
 The Final GUI implementation. This is the core product.	
-- **`nnUnet_final.py`**
-Implements learned segmentation through an adapted version of the nnUnet pipline in 3D.
-
 - **`logboek.md`**  
   Weekly development and research log documenting the iterative process, meetings, and decisions.
-
 - **`Zelfevaluatieformulier_eindverslag.pdf`**  
   Self-assessment form for evaluating learning outcomes in the context of the graduation project.
 - **`USER_GUIDE.md`**  
   Practical guide for using the colocalization analysis tool. Includes setup instructions, input requirements, interface walkthrough, and interpretation tips for output metrics.
+- **`nnUnet_final.py`**
+Implements learned segmentation through an adapted version of the nnUnet pipline.
 ---
 ## 🧬 Research Use Only Disclaimer
 
