@@ -1,6 +1,6 @@
 # CCT1–mHTT Colocalization Analysis
 
-This repository accompanies the master's thesis *"Colocalization patterns of mutant Huntingtin and the CCT1 chaperone"*, conducted at the Amsterdam University of Applied Sciences in collaboration with the Prinses Máxima Centrum.
+This repository accompanies the master's thesis *"Quantitative Colocalization Analysis of CCT1 and Mutant Huntingtin Aggregates in Fluorescence Microscopy Images"*, conducted at the Amsterdam University of Applied Sciences in collaboration with the Prinses Máxima Centrum.
 
 The goal of this project is to quantify spatial colocalization between mutant Huntingtin (mHTT) aggregates and the CCT1 chaperone using 3D fluorescence microscopy data. The pipeline combines both traditional image analysis techniques and deep learning models (e.g., nnU-Net) to segment structures of interest and compute overlap metrics such as Pearson’s coefficient, Manders’ M1/M2, and Dice similarity coefficient.
 
@@ -8,33 +8,6 @@ The goal of this project is to quantify spatial colocalization between mutant Hu
 
 ## 🧠 Project Structure
 
-### 🔬 Core Notebook
-- **`GUI_final.py`**
-The Final GUI implementation. This is the core product.	
-- **`nnUnet_final.py`**
-Implements learned segmentation through a nnUnet pipline in 3D. Trained models and predictions enable spatial colocalization analysis at high resolution.
-
-- **`logboek.md`**  
-  Weekly development and research log documenting the iterative process, meetings, and decisions.
-
-- **`Zelfevaluatieformulier leeruitkomsten_blok4 (1).pdf`**  
-  Self-assessment form for evaluating learning outcomes in the context of the graduation project.
-- **`USER_GUIDE.md`**  
-  Practical guide for using the colocalization analysis tool. Includes setup instructions, input requirements, interface walkthrough, and interpretation tips for output metrics.
-
----
-## 📁 Older code
-- **`CPCAM.ipynb`**  
-  Visualizes and quantifies CCT1 enrichment at mHTT aggregate locations using intensity-based statistics.
-
-- **`Hybrid_Colocalization_SpotitPy.ipynb`**  
-  Combines SpotitPy’s object-based segmentation with traditional colocalization metrics for hybrid analysis.
-
-- **`Microscopy_analysis_new.ipynb`**  
-  Main exploratory notebook for preprocessing, visualization, and manual inspection of multi-channel z-stack microscopy data.
-
-- **`aggregate detection.ipynb`**  
-  Applies classical image processing techniques (thresholding, morphology) to detect mHTT aggregates from fluorescence channels.
 ## 📊 Methodology Overview
 
 The analysis pipeline is structured as follows:
@@ -52,8 +25,22 @@ The analysis pipeline is structured as follows:
 - Jupyter
 - Libraries: `numpy`, `scikit-image`, `matplotlib`, `opencv-python`, `cellpose`, `nnunet`, `napari`, `pandas`
 
-Environment files or setup instructions will be added in future commits. Ensure CUDA support if running nnU-Net on GPU.
+Environment files or setup instructions are added alongside the analysis in requirements.txt files in future commits. Ensure CUDA support if running nnU-Net on GPU.
 
+---
+### 🔬 Some Core Notebook elements
+- **`GUI_final.py`**
+The Final GUI implementation. This is the core product.	
+- **`nnUnet_final.py`**
+Implements learned segmentation through an adapted version of the nnUnet pipline in 3D.
+
+- **`logboek.md`**  
+  Weekly development and research log documenting the iterative process, meetings, and decisions.
+
+- **`Zelfevaluatieformulier_eindverslag.pdf`**  
+  Self-assessment form for evaluating learning outcomes in the context of the graduation project.
+- **`USER_GUIDE.md`**  
+  Practical guide for using the colocalization analysis tool. Includes setup instructions, input requirements, interface walkthrough, and interpretation tips for output metrics.
 ---
 ## 🧬 Research Use Only Disclaimer
 
